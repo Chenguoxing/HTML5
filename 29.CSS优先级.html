@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>29.CSS优先级</title>
+  <style>
+	p{
+		color:red;
+	}
+	#test1{
+		color:green;
+	}
+	.test2{
+		color:blue;
+	}
+	div #test1{
+		color:orange;
+	}
+  </style>
+ </head>
+ <body>
+	  <div>
+		<p id="test1" class="test2">绿色！</p>
+	  </div>
+ </body>
+</html>

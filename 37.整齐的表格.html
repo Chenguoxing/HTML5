@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+<meta charset="utf-8" />
+<title>37.整齐的表格</title><style>
+<meta name="author" content="Joy Du(飘零雾雨), dooyoe@gmail.com, www.doyoe.com" />
+
+h1{font-size:16px;font-family:Arial;}
+.separate{border-collapse:separate;}
+.collapse{border-collapse:collapse;}
+</style>
+</head>
+<body>
+<h1>separate: 边框独立</h1>
+<table border="1" class="separate">
+<tbody>
+	<tr>
+		<td>独立边框</td>
+		<td>独立边框</td>
+		<td>独立边框</td>
+		
+	</tr>
+	<tr>
+		<td>独立边框</td>
+		<td>独立边框</td>
+		<td>独立边框</td>
+	</tr>
+</tbody>
+</table>
+
+<h1>collapse: 相邻边被合并</h1>
+<table border="1" class="collapse">
+<tbody>
+	<tr>
+		<td colspan="4">合并边框</td>
+		
+	</tr>
+	<tr>
+		<td>合并边框</td>
+		<td>合并边框</td>
+		<td rowspan="2">合并边框</td>
+	</tr>
+	<tr>
+		<td>合并边框</td>
+		<td>合并边框</td>
+		
+	</tr>
+	
+</tbody>
+</table>
+<br/>
+<h2>
+	PS：复制了CSS手册的模板2016/9/24	15:59
+</h2>
+</body>
+</html>
+			
+ 

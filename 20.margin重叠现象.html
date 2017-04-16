@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>20.margin重叠现象</title>
+  <style >
+	#test1{
+			height:100px;
+			background:blue;
+			margin-bottom:50px;
+	}
+	#test2{
+			height:100px;
+			background:green;
+			margin-top:50px;
+	}
+  </style>
+ </head>
+ <body>
+  <div id="test1">相邻的普通元素，上下边距并非简单的相加</br>
+				  额而是取最大的边距</br>
+				  这种现象叫做margin重叠。</div>
+  <div id="test2"></div>
+
+ </body>
+</html>
